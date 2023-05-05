@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Pow işlemi</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/style/style.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">Matematik</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dört İşlem
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="toplama.html" class="dropdown-item">Toplama</a></li>
+                                <li><a href="cikarma.html" class="dropdown-item">Çikarma</a></li>
+                                <li><a href="bolme.html" class="dropdown-item">Bölme</a></li>
+                                <li><a href="carpma.html" class="dropdown-item">Çarpma</a></li>
+                            </ul>
+                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" role="button"
+                                data-bs-toggle="dropdown">
+                                Matematik
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/Math/Abs.html" class="dropdown-item">Abs(x)</a></li>
+                                <li><a href="/Math/acosh.html" class="dropdown-item">Acosh(x)</a></li>
+                                <li><a href="/Math/asin.html" class="dropdown-item">Asin(x)</a></li>
+                                <li><a href="/Math/asinh.html" class="dropdown-item">Asinh(x)</a></li>
+                                <li><a href="/Math/atan.html" class="dropdown-item">Atan(x)</a></li>
+                                <li><a href="/Math/atan2.html" class="dropdown-item">Atan2(x,y)</a></li>
+                                <li><a href="/Math/atanh.html" class="dropdown-item">Atanh(x)</a></li>
+                                <li><a href="/Math/cbrt.html" class="dropdown-item">Cbrt(x)</a></li>
+                                <li><a href="/Math/ceil.html" class="dropdown-item">Ceil(x)</a></li>
+                                <li><a href="/Math/cos.html" class="dropdown-item">Cos(x)</a></li>
+                                <li><a href="/Math/exp.html" class="dropdown-item">Exp(x)</a></li>
+                                <li><a href="/Math/floor.html" class="dropdown-item">floor(x)</a></li>
+                                <li><a href="/Math/log.html" class="dropdown-item">log(x)</a></li>
+                                <li><a href="/Math/max.html" class="dropdown-item">Max(x,y,z)</a></li>
+                                <li><a href="/Math/min.html" class="dropdown-item">Min(x,y,z)</a></li>
+                                <li><a href="/Math/pow.html" class="dropdown-item">Pow(x,y)</a></li>
+                                <li><a href="/Math/random.html" class="dropdown-item">Random</a></li>
+                                <li><a href="/Math/round.html" class="dropdown-item">Round(x)</a></li>
+                                <li><a href="/Math/sign.html" class="dropdown-item">Sign(x)</a></li>
+                                <li><a href="/Math/sin.html" class="dropdown-item">Sin(x)</a></li>
+                                <li><a href="/Math/sign.html" class="dropdown-item">Sinh(x)</a></li>
+                                <li><a href="/Math/sqrt.html" class="dropdown-item">Sqrt(x)</a></li>
+                                <li><a href="/Math/tan.html" class="dropdown-item">Tan(x)</a></li>
+                                <li><a href="/Math/tanh.html" class="dropdown-item">Tanh(x)</a></li>
+                                <li><a href="/Math/trunc.html" class="dropdown-item">Trunch(x)</a></li>
+                            </ul>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+       
+
+
+
+        <div class="container mt-5">
+            <div class="jumbotron">
+                Pow(x) = <b>X değerini y'nin gücüne döndürür</b>
+                <br>
+                Örnek (X,Y) : <i>5,2</i>
+                <br>
+                Sonuç : <i>25</i>
+
+            </div>
+            <label for="">X : </label>
+            <input type="text" name="toplama" id="sayi1" class="form-control" value="">
+            <br>
+            <label for="">Y : </label>
+            <input type="text" name="toplama" id="sayi2" class="form-control" value="">
+            <br>
+            <button class="btn btn-dark" id="calculation" type="button">Hesapla</button>
+
+            <center>
+                <div id="result" class=""></div>
+            </center>
+        </div>
+    </main>
+    <footer class="w-100 p-5 bg-dark mt-5">
+        <center>
+            <p class="text-white">Bu Site Celil Çavuş Tarafindan Oluşturulmuştur..</p>
+        </center>
+    </footer>
+    <script src="/javascript/pow.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
